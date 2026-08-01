@@ -16,11 +16,10 @@
 
         <ul class="tabs-content">
             <li class="active" id="requirementsTab">
-                <p class='text'>For questions about TBP, eligibility please email <a
+                <p class='text'>For questions about TBP eligibility, please email <a
                         href='mailto:tbp-eligibles-chair@mit.edu' target='new'>tbp-eligibles-chair@mit.edu.</a></p>
-                <p class='text'>If you are a current eligible and would like to see your progress in completing your
-                    eligiblity requirements, please visit the eligibles portal <a
-                        href="http://web.mit.edu/tbp/www/eligibles_portal.shtml" target='new'>here</a>.</p>
+                <p class='text'>If you are a current eligible, you will be contacted directly by email at the
+                    beginning of each term with your requirements and your progress toward completing them.</p>
                 <!--
                   <p class='text'>If you have been invited to become a TBP eligible, the following requirements must be
                       fulfilled:</p>

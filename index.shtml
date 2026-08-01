@@ -16,13 +16,15 @@
           </div>
         </div>
   -->
-        <div id='alt-home-1'>
+        <!--
+  <div id='alt-home-1'>
             <div class='announcement'>
                 <div class='date'>February 2021</div>
                 <div class='text'>CONGRATULATIONS TO THE <a href='fellowships.shtml#pastwinners'>WINNERS</a></div>
                 <div class='text'>of the 2021 IAP Service/Engineering Fellowships</div>
             </div>
         </div>
+  -->
         <div id='alt-home-3'>
             <div class='left-announcement long-announcement'>
                 <div class='date'>TO MEMBERS:</div>
