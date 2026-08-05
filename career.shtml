@@ -11,7 +11,7 @@
     <!-- Set the viewport width to device width for mobile -->
     <meta name="viewport" content="width=device-width"/>
 
-    <meta http-equiv="refresh" content="2;url=http://tbp-careerfair.herokuapp.com/">
+    <meta http-equiv="refresh" content="2;url=https://xfair.mit.edu/">
 
     <title>MIT TBP</title>
 
@@ -38,7 +38,7 @@
         <ul class="tabs-content">
             <li class="active" id="tab1Tab">
                 You will be redirected to our career fair site soon. If it does not redirect in 3 seconds, you can view
-                the site <a href='http://tbp-careerfair.herokuapp.com/'>here</a>.
+                the site <a href='https://xfair.mit.edu/'>here</a>.
             </li>
         </ul>
     </div>

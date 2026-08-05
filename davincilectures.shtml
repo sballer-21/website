@@ -32,10 +32,12 @@
             </li>
             <li id="upcominglecturesTab">
                 <h2>Upcoming Da Vinci Lectures</h2>
-                <!-- <p class='first text'>Stay tuned for our next lecture!</p> -->
+                <p class='first text'>Stay tuned for our next lecture!</p>
+                <!-- When a lecture is scheduled, restore an RSVP link and poster here, e.g.:
                 <p class='first text'>Please let us know if you will be attending: <a
-                        href='http://tinyurl.com/MITingenious'>tinyurl.com/MITingenious</a></p>
-                <p class='first text'><img src='davinciposters/jasonfagone.png'/></p>
+                        href='RSVP_LINK_HERE'>RSVP</a></p>
+                <p class='first text'><img src='davinciposters/POSTER.png'/></p>
+                -->
             </li>
             <li id="pastlecturesTab">
                 <h2>Past Da Vinci Lectures</h2>
