@@ -6,25 +6,10 @@
 <div class='header' id='homepage'>
     <div id='featured'>
         <div id='home'></div>
-        <!--
-  <div id='alt-home-1'>
-          <div class='left-announcement'>
-            <div class='date'>3/12/2014</div>
-            <div class='text'>TBP SUMMER '14 FELLOWSHIPS INFO SESSION</a></div>
-            <div class='text'>RM. 3-333, WED 3/19 @ 7PM</div>
-            <div class='text'>Food will be provided</div>
-          </div>
-        </div>
-  -->
-        <!--
-  <div id='alt-home-1'>
-            <div class='announcement'>
-                <div class='date'>February 2021</div>
-                <div class='text'>CONGRATULATIONS TO THE <a href='fellowships.shtml#pastwinners'>WINNERS</a></div>
-                <div class='text'>of the 2021 IAP Service/Engineering Fellowships</div>
-            </div>
-        </div>
-  -->
+        <!-- Announcement slides live here.  Add one as a sibling of #alt-home-3
+             below, using the same markup; the .announcement variant sits bottom
+             right, .left-announcement bottom left.  Old 2013/2014/2021 slides
+             were removed during the reboot — see git history for examples. -->
         <div id='alt-home-3'>
             <div class='left-announcement long-announcement'>
                 <div class='date'>TO MEMBERS:</div>
@@ -32,14 +17,6 @@
                 </div>
             </div>
         </div>
-        <!--
-  <div id='alt-home-4'>
-          <div class='announcement'>
-            <div class='date'>5/29/2013</div>
-            <div class='text'>CONGRATULATIONS TO<br /><em>42</em> NEW MEMBERS</div>
-          </div>
-        </div>
-  -->
     </div>
     <div id='blurb'>
         <div class='rule'></div>
@@ -52,7 +29,6 @@
 
 <!--#include virtual="includes/pages/about.htm"-->
 <!--#include virtual="includes/pages/officers.htm"-->
-<!--#include virtual="includes/pages/careerfair.htm"-->
 <!--#include virtual="includes/pages/contact.htm"-->
 
 <!--#include virtual="includes/footer.htm"-->

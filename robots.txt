@@ -1,4 +1,12 @@
 # www.robotstxt.org/
-# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+#
+# NOTE: crawlers only read robots.txt from a domain root, so this file has no
+# effect while the site is served from web.mit.edu/tbp/www/ — the rule that
+# actually applies comes from web.mit.edu/robots.txt, which we do not control.
+# Kept for the day the site moves to its own hostname.  To keep a page out of
+# search results before then, remove the page rather than relying on this file.
 
 User-agent: *
+
+# Unlinked during the 2026 chapter reboot: newest photos are from 2013.
+Disallow: /photogallery.shtml
