@@ -1,2 +1,0 @@
-Open unknown.png in Photoshop, and drag the profile picture onto the open project. Alt-click the profile picture layer
-to use the unknown.png image as the transparency mask. Export by using 'Save for Web' at 360x360 resolution.
