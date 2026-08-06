@@ -1,12 +1,6 @@
 <!-- CONTACT PAGE -->
 <a name='contact' data-magellan-destination='contact'></a>
 <div class='row'>
-    <div class='twelve columns'>
-        <div data-alert class="email-success alert-box success">
-            Your email has been sent
-            <a href="#" class="close">&times;</a>
-        </div>
-    </div>
     <div data-magellan-destination='contact' id='contact'>
         <div class='row center'>
             <h2 class='dark-header'><em>CONTACT</em> US</h2>
@@ -19,71 +13,14 @@
         <div class='row'><b>email: </b><a href='mailto:tbp-officers@mit.edu'>tbp-officers@mit.edu</a></div>
         <div class='row' id='address'>77 Massachusetts Avenue<br>Bldg. 4-134, Cambridge MA</div>
     </div>
-    <!-- Normal size -->
-    <div class='six columns hide-for-small'>
-        <form method="post" action="" id='contact-form'>
-            <div class='row'>
-                <div class='eight colunns'>
-                    <input name='name' placeholder='YOUR NAME' type='text'/>
-                    <small class='error input-error'>This is a required field</small>
-                </div>
-            </div>
-            <div class='row'>
-                <div class='eight colunns'>
-                    <input name='email' placeholder='YOUR EMAIL' type='text'/>
-                    <small class='error input-error'>This is a required field</small>
-                    <small class='error input-error invalid'>Invalid email</small>
-                </div>
-            </div>
-            <div class='row'>
-                <div class='eight colunns'>
-                    <input name='subject' placeholder='SUBJECT' type='text'/>
-                    <small class='error input-error'>This is a required field</small>
-                </div>
-            </div>
-            <div class='row'>
-                <div class='eleven columns'>
-                    <textarea name='content' placeholder='TELL US SOMETHING'></textarea>
-                    <small class='error input-error textarea-error'>This is a required field</small>
-                </div>
-            </div>
-            <div class='row'>
-                <input type='submit' class='button' value='SEND'/>
-            </div>
-        </form>
-    </div>
-    <!-- Different size for mobile screens and small browser windows -->
-    <div class='six columns centered show-for-small'>
-        <form method="post" action="" id='contact-form'>
-            <div class='row'>
-                <div class='seven colunns'>
-                    <input name='name' placeholder='YOUR NAME' type='text'/>
-                    <small class='error input-error'>This is a required field</small>
-                </div>
-            </div>
-            <div class='row'>
-                <div class='seven colunns'>
-                    <input name='email' placeholder='YOUR EMAIL' type='text'/>
-                    <small class='error input-error'>This is a required field</small>
-                    <small class='error input-error invalid'>Invalid email</small>
-                </div>
-            </div>
-            <div class='row'>
-                <div class='seven colunns'>
-                    <input name='subject' placeholder='SUBJECT' type='text'/>
-                    <small class='error input-error'>This is a required field</small>
-                </div>
-            </div>
-            <div class='row'>
-                <div class='eight columns'>
-                    <textarea class='contact-text' name='content' placeholder='TELL US SOMETHING'></textarea>
-                    <small class='error input-error textarea-error'>This is a required field</small>
-                </div>
-            </div>
-            <div class='row'>
-                <input type='submit' class='button' value='SEND'/>
-            </div>
-        </form>
+    <!-- The old form POSTed to tbp.scripts.mit.edu/php/mail.php, which no longer
+         exists — submissions were silently discarded.  Replaced with a direct
+         mailto so messages actually reach the officers. -->
+    <div id='contact-cta' class='six columns center'>
+        <p class='text'>Questions about membership, eligibility, tutoring, or
+            our events? Email the officer team and we'll get back to you.</p>
+        <a class='button normal' href='mailto:tbp-officers@mit.edu'>EMAIL THE OFFICERS<span
+                class='right-arrow'></span></a>
     </div>
 </div>
 </div>
