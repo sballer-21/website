@@ -1,28 +1,33 @@
-<!-- NAVIGATION -->
-<!-- different than home-nav since links have to be with absolute path
-     instead of just the tag -->
+<!-- NAVIGATION (sub-pages; index.shtml uses home-nav.htm instead)
+     Links are relative.  Every page lives at the top level of the locker, so
+     these resolve the same way in local preview and in production.  Do not
+     restore the old absolute http://web.mit.edu/tbp/www/ URLs: they made every
+     nav click in local preview jump to the live site, and they force an extra
+     http->https redirect in production.
+     Home/Officers/Contact point at index.shtml#anchor rather than a bare
+     #anchor, since those sections only exist on the home page. -->
 <nav id="magellanTopNav" data-magellan-expedition="fixed">
     <div class='row nav'>
-        <div id='home-button'><a href='http://web.mit.edu/tbp/www/'>TBP</a></div>
+        <div id='home-button'><a href='index.shtml'>TBP</a></div>
         <dl>
-            <dd id='home-nav' data-magellan-arrival="home"><a href='http://web.mit.edu/tbp/www/'>Home</a></dd>
+            <dd id='home-nav' data-magellan-arrival="home"><a href='index.shtml'>Home</a></dd>
             </dd>
             <!-- name attribute for javascript, to highlight about menu item when visiting sub menu links -->
             <dd name="about" class='has-dropdown' data-magellan-arrival="about">
-                <a class='dropdown-link' href='http://web.mit.edu/tbp/www/#about'>About</a>
+                <a class='dropdown-link' href='index.shtml#about'>About</a>
                 <ul class='dropdown'>
                     <!-- rel attribute for javascript, to highlight about menu item when visiting the below links -->
                     <!-- rel attribute must have same name as file -->
-                    <li><a name="pastofficers" rel="about" href="http://web.mit.edu/tbp/www/pastofficers.shtml">Past
+                    <li><a name="pastofficers" rel="about" href="pastofficers.shtml">Past
                         Officers</a></li>
-                    <li><a name="advisor" rel="about" href="http://web.mit.edu/tbp/www/advisor.shtml">Faculty
+                    <li><a name="advisor" rel="about" href="advisor.shtml">Faculty
                         Advisor</a></li>
-                    <li><a name="constitution" rel="about" href="http://web.mit.edu/tbp/www/constitution.shtml">Constitution</a>
+                    <li><a name="constitution" rel="about" href="constitution.shtml">Constitution</a>
                     </li>
                     <!-- Photo gallery hidden during the chapter reboot: newest photos are from
                          2013.  Restore this link once there are recent event photos to show. -->
                     <!--
-                    <li><a name="photogallery" rel="about" href="http://web.mit.edu/tbp/www/photogallery.shtml">Photo
+                    <li><a name="photogallery" rel="about" href="photogallery.shtml">Photo
                         Gallery</a></li>
                     -->
                 </ul>
@@ -35,23 +40,23 @@
                          Summer 2022 deadline with a live application form.  fellowships.shtml
                          and includes/fellowships/ are recoverable from git history when the
                          program relaunches with current dates. -->
-                    <li><a name="davincidinners" rel="programs" href="http://web.mit.edu/tbp/www/davincilectures.shtml">da
+                    <li><a name="davincidinners" rel="programs" href="davincilectures.shtml">da
                         Vinci Lectures</a></li>
-                    <li><a name="tutoring" rel="programs" href="http://web.mit.edu/tbp/www/tutoring.shtml">Tutoring</a>
+                    <li><a name="tutoring" rel="programs" href="tutoring.shtml">Tutoring</a>
                     </li>
-                    <li><a name="commserve" rel="programs" href="http://web.mit.edu/tbp/www/commserve.shtml">Community
+                    <li><a name="commserve" rel="programs" href="commserve.shtml">Community
                         Service</a></li>
                     <li><a name="eligibles" rel="programs"
-                           href="http://web.mit.edu/tbp/www/eligibles.shtml">Eligibles</a></li>
-                    <li><a class='show-for-small' href="http://web.mit.edu/tbp/www/events.shtml">Events</a></li>
+                           href="eligibles.shtml">Eligibles</a></li>
+                    <li><a class='show-for-small' href="events.shtml">Events</a></li>
                 </ul>
             </dd>
-            <dd data-magellan-arrival="officers"><a class='hide-for-small' href="http://web.mit.edu/tbp/www/#officers">Officers</a>
+            <dd data-magellan-arrival="officers"><a class='hide-for-small' href="index.shtml#officers">Officers</a>
             </dd>
-            <dd data-magellan-arrival="contact"><a class='hide-for-small' href="http://web.mit.edu/tbp/www/#contact">Contact</a>
+            <dd data-magellan-arrival="contact"><a class='hide-for-small' href="index.shtml#contact">Contact</a>
             </dd>
             <dd name="events">
-                <a class='hide-for-small' href="http://web.mit.edu/tbp/www/events.shtml" name="events" rel="events">Events</a>
+                <a class='hide-for-small' href="events.shtml" name="events" rel="events">Events</a>
             </dd>
         </dl>
     </div>
