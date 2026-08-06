@@ -1,102 +1,22 @@
 <!--#include virtual="includes/header.htm"-->
 <!--#include virtual="includes/nav.htm"-->
 
-<!-- FACULTY ADVISOR -->
+<!-- ELIGIBLES -->
 <div class='main'>
     <div class='row'>
         <h1 class='dark-header'><em>ELIGIBLES REQUIREMENTS</em></h1>
     </div>
     <div class='row content'>
-        <!--
-  <dl class="tabs">
-          <dd class="active"><a href="#requirements">Requirements</a></dd>
-          <dd><a href="#personalessay">Upload Personal Essay</a></dd>
-        </dl>
-  -->
-
         <ul class="tabs-content">
             <li class="active" id="requirementsTab">
                 <p class='text'>For questions about TBP eligibility, please email <a
-                        href='mailto:tbp-eligibles-chair@mit.edu' target='new'>tbp-eligibles-chair@mit.edu.</a></p>
+                        href='mailto:tbp-eligibles-chair@mit.edu'>tbp-eligibles-chair@mit.edu</a>.</p>
                 <p class='text'>If you are a current eligible, you will be contacted directly by email at the
                     beginning of each term with your requirements and your progress toward completing them.</p>
-                <!--
-                  <p class='text'>If you have been invited to become a TBP eligible, the following requirements must be
-                      fulfilled:</p>
-                  <p class='text'>
-                  <ol>
-                      <li><em><b>Personal Integrity</b></em><br/>
-                          There aren't any hard-defined requirements here, but essentially,
-                        if we hear of you doing anything that could compromise your personal integrity, we
-                          may reconsider your eligibility for initiation.
-                      </li>
-                      <li><em><b>Two Service Events</b></em><br/>
-                          You must complete two service events, each lasting at least two hours.  One of these events must
-                      </li>
-                      <li><em><b>Attend at least two social events</b></em><br/>
-                          Check your emails for news on these events, as well as the <a href='events.shtml' target='new'>calendar</a>.
-                      </li>
-                      <li><em><b>Recommendation letter</b></em><br/>
-                          This will be from someone who knows you well (or what you would consider "well enough") and has
-                          a supervisor position over you; it can be a mentor, a professor, a UROP supervisor, a pastor, a
-                          sports coach, etc., just not your parents or your peers. The contents of the recommendation
-                          letter don't have to follow a specific formula, but basically the letter must attest to your
-                          personal character and integrity.<br/>
-                          How to email us: Tell your recommender to email <a href='mailtot:tbp-eligibles-chair@mit.edu'>tbp-eligibles-chair@mit.edu</a>
-                          (no attachments necessary) with subject title "TBP Recommendation Letter for FirstName LastName"
-                      </li>
-                      <li><em><b>Personal essay</b></em><br/>
-                          The essay should be ~500 words (in 12pt font). You may talk about one of two things:
-                          <ol type="a">
-                              <li>Write about a time that you faced a moral dilemma and what you did - Don't write
-                                  superficially on this. Please say more than "I wanted to cheat on my X.0XX exam but I
-                                  didn't. I'm done =)" It's fine to talk about if you were confronted with that particular
-                                  dilemma, but at least talk about it more; give some background, give some context. Write
-                                  something substantive. That's all we're asking for.
-                              </li>
-                              <li>Talk about the most unforgettable experience you've ever had.</li>
-                          </ol>
-                          You may submit your essay <a href='eligibles.shtml#personalessay' target='new'>here</a>.
-                      </li>
-                  </ol>
-                  </p>
-                  <p class='text'>Email <a href='mailto:tbp-eligibles-chair@mit.edu'>tbp-eligibles-chair@mit.edu</a> if
-                      you have any questions!</p>
-              </li>
-              <!--
-                <li id='personalessayTab'>
-                    <h2>Personal Essay</h2>
-                    <p class='first text'>
-                        Submit your personal essay using the form below
-                    </p>
-                    <iframe id="JotFormIFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true"
-                            src="http://form.jotform.us/form/31207396092150" frameborder="0"
-                            style="width:400px; height:465px; border:none; margin-left:0; text-align:left;"
-                            scrolling="no"></iframe>
-                    <script type="text/javascript">window.handleIFrameMessage = function (e) {
-                        var args = e.data.split(":");
-                        var iframe = document.getElementById("JotFormIFrame");
-                        if (!iframe) return;
-                        switch (args[0]) {
-                            case "scrollIntoView":
-                                iframe.scrollIntoView();
-                                break;
-                            case "setHeight":
-                                iframe.style.height = args[1] + "px";
-                                break;
-                        }
-                    };
-                    if (window.addEventListener) {
-                        window.addEventListener("message", handleIFrameMessage, false);
-                    } else if (window.attachEvent) {
-                        window.attachEvent("onmessage", handleIFrameMessage);
-                    }</script>
-                </li>
+            </li>
+        </ul>
+    </div>
+</div>
 
-          </ul>
-      </div>
-  </div>
-  -->
-
-                <!--#include virtual="includes/footer.htm"-->
-                <!--#include virtual="includes/bottom.htm"-->
+<!--#include virtual="includes/footer.htm"-->
+<!--#include virtual="includes/bottom.htm"-->

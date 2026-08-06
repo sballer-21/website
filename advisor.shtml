@@ -9,7 +9,7 @@
     <div class='row content'>
         <ul class="tabs-content">
             <li class="active" id="tab1Tab">
-                <p class='text'>Our first TBP faculty advisor for TBP is <em>David Perreault</em>, who received the B.S.
+                <p class='text'>Our TBP faculty advisor is <em>David Perreault</em>, who received the B.S.
                     degree from Boston University in 1989, and the S.M. and Ph.D. degrees from the Massachusetts
                     Institute of Technology (MIT), in 1991 and 1997, respectively. In 1997, he joined the MIT Laboratory
                     for Electromagnetic and Electronic Systems as a Postdoctoral Associate, and became a Research
@@ -17,22 +17,6 @@
                     Department of Electrical Engineering and Computer Science at MIT. Dr. Perreault's research
                     interests include design, manufacturing, and control techniques for power electronic systems and
                     components, and their use in a wide range of applications. </p>
-            </li>
-            <li class="active" id="tab1Tab">
-                <p class='text'> Our second TBP faculty advisor is <em>Michael Yaffe</em>, who is the David H. Koch
-                    Professor of Science and Professor of Biology and Biological Engineering at MIT, where he has been a
-                    member of the faculty since 2000; he is also an attending surgeon at the Beth Israel Deaconess
-                    Medical Center. Professor Yaffe earned his M.D.-Ph.D. degree from Case Western Reserve University.
-                    He then completed a residency in General Surgery at University Hospitals of Cleveland and New
-                    England Deaconess Hospital, and a fellowship in Surgical Critical Care, Trauma and Burns at Harvard
-                    Medical School's Harvard-Longwood Critical Care Program. He was a post-doctoral fellow with Lewis
-                    Cantley in the Department of Cell Biology at Harvard Medical School. Professor Yaffe is the
-                    Scientific Editor-in-Chief of Science Signaling, and a member of the Editorial Boards of Molecular &
-                    Cellular Proteomics and Cell Cycle. He is a Colonel in the U.S. Army Reserve Medical Corps and a
-                    decorated veteran of the war in Afghanistan. Professor Yaffe is a co-founder of Consensus
-                    Pharmaceuticals, the DNA Repair Company, On-Q-ity, and Merrimack Pharmaceuticals. He also a
-                    co-founder and a member of the scientific advisory board of Applied Biomath and Thrombo
-                    Therapeutics.
             </li>
         </ul>
     </div>

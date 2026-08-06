@@ -9,11 +9,11 @@
     <div class='row content'>
         <ul class="tabs-content">
             <li class="active" id="tab1Tab">
-                <p class='text'>Below is a calendar of all TBP events, including social and service events for members
-                    and deadlines for fellowships.</p>
-                <iframe class='calendar'
-                        src=https://calendar.google.com/calendar/embed?src=vv9bnpvifulk3p4u54260s6tvc%40group.calendar.google.com&ctz=America%2FNew_York""
-                        style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                <p class='text'>Below is a calendar of all TBP events, including social and service events for
+                    members.</p>
+                <iframe class='calendar' title='MIT Tau Beta Pi events calendar'
+                        src="https://calendar.google.com/calendar/embed?src=vv9bnpvifulk3p4u54260s6tvc%40group.calendar.google.com&amp;ctz=America%2FNew_York"
+                        style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
             </li>
         </ul>
     </div>
