@@ -7,6 +7,3 @@
 # search results before then, remove the page rather than relying on this file.
 
 User-agent: *
-
-# Unlinked during the 2026 chapter reboot: newest photos are from 2013.
-Disallow: /photogallery.shtml

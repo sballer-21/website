@@ -13,7 +13,7 @@ python3 ssi_server.py
 
 Then open <http://localhost:8000>.  The port is always 8000 — the script ignores any port argument.  `Ctrl-C` to stop.
 
-**Caveat:** `includes/nav.htm` uses absolute `http://web.mit.edu/tbp/www/` links, so clicking nav links from a sub-page in local preview will take you to the *live* site.  Only `index.shtml` (which uses `home-nav.htm`) navigates locally.  To preview a sub-page, type its `localhost:8000` URL directly.
+Nav links are relative, so preview navigation stays on `localhost`.  One thing that will *not* work locally: the "you are here" nav highlight in `includes/bottom.htm` hardcodes `pathname.substr(9)` to strip the production `/tbp/www/` prefix, so it only highlights correctly on the live site.
 
 ## Installation/Requirements
 The only capabilities you'll need on your machine are `ssh` and `git`.  Once you have these set up, you'll be ready to make modifications to the site as you see fit!
@@ -110,8 +110,25 @@ The site used to have a self-service eligibles portal (`eligibles_portal.shtml`,
 
 ## Site conventions
 
-- **MIT red is `#A31F34`** ([brand.mit.edu](https://brand.mit.edu)).  Don't reintroduce the old `#b40132`.
-- Every page must reach the footer through `includes/footer.htm`, which carries the required link to [accessibility.mit.edu](https://accessibility.mit.edu).  Don't inline a copy of the header or footer in a page — if a page needs its own `<head>` content, add it to the shared include behind a condition instead.
-- Don't add content under a `web_scripts/`-style directory or point at `tbp.scripts.mit.edu`.  Stale content served that way is what got the locker flagged by IS&T.
+These exist because IS&T flagged this locker for abandoned content in August 2026, and the remedy available to them is taking the **entire locker offline**. Don't regress them.
+
+### Colour and contrast
+
+- **MIT Red is `#750014`** ([brand.mit.edu/color](https://brand.mit.edu/color)). Don't reintroduce `#b40132` (never official) or `#A31F34` (the pre-refresh red).
+- **Use MIT Red on light surfaces only.** On the near-black footer and announcement boxes it scores **1.5:1**, far below the WCAG AA minimum of 4.5:1. Those places use white deliberately — there are comments in `app.css` saying so.
+- Where MIT Red *does* appear, it passes comfortably: white text on the red nav button and red text on the white officer cards are both 11.9:1.
+- MIT's own "Bright Red" `#ff1423` scores 4.41:1 on the footer — still short of AA. Don't reach for it as a fix.
+- Check any new colour pairing before shipping it.
+
+### Accessibility
+
+- Every page must reach the footer through `includes/footer.htm`, which carries the required link to [accessibility.mit.edu](https://accessibility.mit.edu). Don't inline a copy of the header or footer in a page.
+- Every `<img>` needs meaningful `alt` text.
+- **If you ever add video or audio, it must be captioned before it goes up.** Under the [MIT–NAD agreement](https://accessibility.mit.edu/captioning/mit-nad-agreement/), new media from sponsored student groups must be captioned on posting, and a member of the public can request captions for older media with a seven-business-day turnaround. The site currently has no media, which is the easiest way to stay compliant.
+
+### Content hygiene
+
+- Don't add content under a `web_scripts/`-style directory or point at `tbp.scripts.mit.edu`.  Stale content served that way is what got the locker flagged.
+- Anything inside this repo is publicly fetchable once deployed, whether or not a page links to it. Unlinking is not hiding. Archive material belongs outside the web tree — see the ACL'd directory described in the deployment notes.
 
 Feel free to email [tbp-officers@mit.edu](mailto:tbp-officers@mit.edu) with any questions about this workflow or the website.

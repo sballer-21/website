@@ -72,8 +72,11 @@ table {
  font-style: normal;
 }
 
+/* Deliberately white, not MIT Red: the footer background is #1b1b1b, where
+   MIT Red scores 1.5:1.  MIT Red is used where it passes -- as the nav button
+   background behind white text, and on the white officer cards. */
 #footer-text em b {
-  color: #A31F34;
+  color: white;
 }
 
 #footer-text a {
@@ -221,7 +224,7 @@ nav:hover {
 }
 
 nav #home-button {
-  background-color: #A31F34;
+  background-color: #750014;
   display: inline-block;
   height: 100%;
   padding: 0 18px;
@@ -413,9 +416,13 @@ ul.tabs-content h4 {
   margin-top: 15px;
 }
 
+/* Announcements sit on a near-black box.  MIT Red (#750014) on that background
+   is 1.5:1 -- effectively invisible and far below WCAG AA.  White + underline
+   keeps the link obvious at 17:1.  See "Colour and contrast" in the README. */
 .header .announcement .text em, .text em a, .header .left-announcement .text em, .text em a {
-  color: #A31F34;
+  color: white;
   font-style: normal;
+  text-decoration: underline;
 }
 
 .header .announcement .date em, .header .left-announcement .date em {
@@ -499,7 +506,7 @@ ul.tabs-content h4 {
 #logo em {
   font-style: normal;
   position: relative;
-  color: #A31F34;
+  color: #750014;
 }
 #one-liner {
   color: #555;
@@ -608,7 +615,7 @@ h1.about em {
   color: #888;
 }
 .officer-row .position {
-  color: #A31F34;
+  color: #750014;
   font-family: "Nexa Bold", Helvetica, sans-serif;
   font-size: 1.2em;
   margin-top: 3px;
@@ -801,7 +808,7 @@ h1.about em {
     margin-top: -18px;
   }
   nav #home-button {
-    background-color: #A31F34;
+    background-color: #750014;
     display: inline-block;
     height: 100%;
     padding: 0 10px;
