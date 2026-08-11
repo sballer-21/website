@@ -1,8 +1,0 @@
-<!-- Temporary stand-in used on the officers page while headshots are collected.
-     Replace each officer's src with their real photo (square crop, 500x500 or
-     larger) and delete this file once every officer has one. -->
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180' width='180' height='180' role='img' aria-label='Headshot coming soon'>
-  <circle cx='90' cy='90' r='90' fill='#e4e4e4'/>
-  <circle cx='90' cy='72' r='30' fill='#b8b8b8'/>
-  <path d='M90 112c-30 0-54 20-58 46a90 90 0 0 0 116 0c-4-26-28-46-58-46z' fill='#b8b8b8'/>
-</svg>

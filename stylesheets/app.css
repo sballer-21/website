@@ -617,6 +617,9 @@ h1.about em {
 #officer-list img {
     width: 180px;
     height: 180px;
+    /* Crop a non-square headshot to fill the box instead of squashing it. */
+    object-fit: cover;
+    object-position: center top;
 }
 
 /* -----------------------------------------
