@@ -88,6 +88,25 @@ Remote names differ by machine, which is a reliable source of confusion:
 On Athena the remote is **not** called `origin`. Commands copied from your
 laptop will fail there until you change the remote name.
 
+**If you have more than one GitHub account,** `git push` uses whichever one
+`gh` currently considers active — which is not necessarily the one that owns
+the repository. The symptom is a confusing `403` that looks like a permissions
+problem:
+
+```
+remote: Permission to OWNER/website.git denied to OTHER-ACCOUNT
+```
+
+Check and switch:
+
+```bash
+gh auth status
+gh auth switch --user CORRECT_ACCOUNT
+```
+
+This is worth knowing because two similarly-named accounts (`sballer21` and
+`sballer-21`) both exist in the chapter's history, with different access.
+
 ---
 
 ## 4. First-time setup
