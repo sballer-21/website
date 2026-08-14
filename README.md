@@ -1,4 +1,10 @@
 # MIT Athena Locker-hosted Website
+
+> **New webmaster? Start with [WEBMASTER-GUIDE.md](WEBMASTER-GUIDE.md).**
+> It covers access, setup, deploying, conventions, security, and the annual
+> checklist in one place, and is kept current. This README is the older
+> reference and overlaps with it; where the two disagree, the guide is right.
+
 Want to see these guides each on their own page?  Please check out our [wiki](https://github.com/Tau-Beta-Pi-MIT/website/wiki)!
 
 ## Overview
