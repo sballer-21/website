@@ -1,7 +1,10 @@
 <!--#include virtual="includes/header.htm"-->
 <!--#include virtual="includes/nav.htm"-->
 
-<!-- CONSTITUTION -->
+<!-- CONSTITUTION
+     Mirrors the chapter constitution adopted 7 October 2026.  When this text
+     changes, regenerate TauBetaPiConstitution.pdf as well -- the download link
+     at the foot of this page serves that file, and the two must not disagree. -->
 <div class='main'>
     <div class='row'>
         <h1 class='dark-header'><em>CONSTITUTION</em></h1>
@@ -9,43 +12,47 @@
     <div class='row content'>
         <ul class="tabs-content">
             <li class="active" id="tab1Tab">
-                <h2>Article I: Purpose</h2>
+                <p class='section text'><em>Updated: October 7, 2026</em></p>
+                <h2>Article I: Purpose/Mission Statement</h2>
                 <p class='section text'>The purpose of Tau Beta Pi is to recognize and promote leadership, excellence,
-                    innovation, and ethics in the
-                    profession of engineering through membership in its honor society. MIT Tau Beta Pi is the Mass Beta
-                    Chapter of
-                    the national Tau Beta Pi organization.</p>
+                    innovation, and ethics in the profession of engineering through membership in its honor society.
+                    MIT Tau Beta Pi is the Massachusetts Beta Chapter of the national Tau Beta Pi organization.</p>
                 <h2 class='section-header'>Article II: Membership</h2>
                 <ol class='section'>
-                    <li>Tau Beta Pi is an engineering honor society for undergraduate and graduate students.
-                        Undergraduate
-                        students are invited to become candidates of Tau Beta Pi based on their academic qualifications
-                        once
-                        each semester. Juniors who rank in the top eighth of their class and seniors who rank in the top
-                        fifth of
-                        their class are invited to become candidates for membership in Tau Beta Pi. Candidates are
-                        selected by
-                        the chapter members based on their exemplary character and the completion of the eligibility
-                        requirements (service hours, personal essay, recommendation letter, and event attendance).
-                        Candidates
-                        will become members after attending the initiation ceremony. Initiation will take place at the
-                        end of
-                        eligibility cycle, which lasts approximately one semester.
+                    <li>Tau Beta Pi is an engineering honor society for undergraduate and graduate students. All MIT
+                        students are eligible for membership. Undergraduate students are invited to become candidates
+                        of Tau Beta Pi based on their academic qualifications once each semester. Juniors who rank in
+                        the top eighth of their class and seniors who rank in the top fifth of their class are invited
+                        to become candidates for membership in Tau Beta Pi. Candidates are selected by the chapter
+                        members based on their exemplary character and the completion of the eligibility requirements
+                        (service hours, personal essay, recommendation letter, and event attendance). Candidates will
+                        become members after attending the initiation ceremony. Initiation will take place at the end
+                        of eligibility cycle, which lasts approximately one semester.
                     </li>
-                    <li>The organization’s membership will at all times consist of at least 5 MIT students and be more
-                        than half
-                        MIT students.
+                    <li>The organization’s membership will at all times consist of at least 10 MIT students and be
+                        more than half MIT students.
                     </li>
-                    <li>This organization will not discriminate based on any characteristic listed in MIT's
-                        Nondiscrimination
-                        Statement.
+                    <li>The organization shall not discriminate based on any characteristic listed in the MIT
+                        Nondiscrimination Policy for membership, officer position, or in any other aspect.
                     </li>
-                    <li>The initiation fee for Tau Beta Pi is $50. This fee must be paid before an eligible student can
-                        be initiated.
-                        There will be exceptions made for students who cannot afford these dues.
+                    <li>The initiation fee for Tau Beta Pi is $60. This fee must be paid before an eligible student can
+                        be initiated. There will be exceptions made for students who cannot afford these dues.
+                    </li>
+                    <li>If a member is found to be harmful to the chapter or to an individual’s health or wellbeing,
+                        they can be removed through a ⅔ vote of current members.
+                    </li>
+                    <li>The Executive Board reserves the right to revoke the membership or officer position of any
+                        member, by a two-thirds majority vote, for non-conduct related reasons. All conduct-related
+                        complaints should be referred to the appropriate channel(s) for resolution, including, without
+                        limitation, the Institute Discrimination &amp; Harassment Response (IDHR) Office, the Committee
+                        on Discipline (COD), and the Student Organizations, Leadership and Engagement (SOLE) Office.
                     </li>
                 </ol>
                 <h2 class='section-header'>Article III: Officers</h2>
+                <p class='section text'>Only MIT students are eligible to serve as officers in the organization. The
+                    executive board of the organization must include at least one president and one treasurer (or
+                    corresponding positions) and each officer role must be held by a distinct MIT student, meaning one
+                    student cannot serve as both president and treasurer simultaneously.</p>
                 <ol class='section'>
                     <li>This organization will have the following executive officers:
                         <ol type="a">
@@ -94,12 +101,12 @@
                     </li>
                     <li>Elections:
                         <ol type="a">
-                            <li>Elections of officers shall occur after initiation each February.</li>
+                            <li>Elections of officers shall occur after initiation.</li>
                             <li>Any member of this organization is eligible to run for office.</li>
                             <li>Quorum for elections is one­half of all active members of the group.</li>
                             <li>Any member is elected if he or she wins a majority of the voting members.</li>
                             <li>If more than two people are running and no one wins a majority, then ranked choice
-                                voting used.
+                                voting is used.
                             </li>
                             <li>The term of office runs from one election to the subsequent election.</li>
                         </ol>
@@ -120,13 +127,17 @@
                     <li>Amendments shall be presented by any member of the organization.</li>
                     <li>Amendments shall be passed by a two­thirds voted of the members present.</li>
                     <li>Quorum for amending this constitution shall be one­half of all members of the organization.</li>
+                    <li>In no event shall any proposed amendment conflict with ASA guidelines, policies, or other MIT
+                        policies.
+                    </li>
                 </ol>
                 <h2 class='section-header'>Article VI: ASA Governance Clause</h2>
-                <p class='section text'>The Tau Beta Pi Engineering Honor Society agrees to abide by the rules and
-                    regulations of the Association of Student Activities, and its executive board. This constitution,
-                    amendments to it, and the bylaws of this organization shall be subject to review by the ASA
-                    Executive Board to insure that they are in accordance with the aforementioned rules and
-                    regulations.</p>
+                <p class='section text'>Tau Beta Pi Engineering Honor Society agrees to abide by the policies and
+                    guidelines of the Association of Student Activities (ASA), its Executive Board, as well as the MIT
+                    Mind and Hand Book and the MIT Student Organization Handbook, all as may be subject to change from
+                    time to time. This Constitution, amendments to it, and the Bylaws of this organization shall be
+                    subject to review by the ASA Executive Board, to ensure that they are in accordance with the
+                    aforementioned policies and guidelines.</p>
                 <a href='TauBetaPiConstitution.pdf' target='new' class='button normal download'>Download PDF
                     Version<span class='right-arrow'></span></a>
             </li>
