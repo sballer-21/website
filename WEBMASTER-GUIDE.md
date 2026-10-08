@@ -283,6 +283,16 @@ not "photo".
 `includes/pastofficers/YYYY-YYYY.htm` (copy the structure of an existing file)
 and add it to `pastofficers.shtml`.
 
+### Update the constitution
+
+The constitution exists in **three** places, and all three must agree:
+`tools/constitution.md` (the source), `constitution.shtml` (the page), and
+`TauBetaPiConstitution.pdf` (the download link at the foot of that page).
+
+Follow `tools/README.md`. The trap is the PDF: it is easy to update the page
+and forget the download, which is how the site spent years offering a PDF with
+a different initiation fee and membership minimum from the page above it.
+
 ### Update the footer year
 
 `includes/footer.htm`, one place, all ten pages.
