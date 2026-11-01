@@ -46,6 +46,7 @@
                      Lectures for each semester are listed in chronological order.
                      To add a lecture, follow the instructions in template.htm -->
 
+                <!--#include virtual="includes/davincilectures/fall2026lectures.htm"-->
                 <!--#include virtual="includes/davincilectures/fall2013lectures.htm"-->
                 <!--#include virtual="includes/davincilectures/spring2013lectures.htm"-->
                 <!--#include virtual="includes/davincilectures/fall2012lectures.htm"-->
